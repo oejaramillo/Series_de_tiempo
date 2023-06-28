@@ -1,16 +1,6 @@
 
 {
-	"commands" : 
-	[
-		"{%equation}.rename arma23",
-		"close ARMA23",
-		"close ARMA33",
-		"close ARMA22",
-		"close ARMA55",
-		"close ARMA44",
-		"{%equation}.ls(optmethod=opg) retgoog ar(2) ar(3) ma(3)",
-		"{%equation}.archtest"
-	],
+	"commands" : null,
 	"description" : "",
 	"label" : "auto",
 	"workbook_meta" : 
@@ -21,9 +11,9 @@
 			
 			{
 				"_frequency" : "D5",
-				"_last_update" : [ 738698.5879629629, "06/28/2023 14:06" ],
+				"_last_update" : [ 738698.6632986111, "06/28/2023 15:55" ],
 				"_name" : "Untitled",
-				"_obj_count" : 20,
+				"_obj_count" : 22,
 				"_objects" : 
 				[
 					
@@ -31,6 +21,16 @@
 						"_data_type" : [ "date" ],
 						"_name" : [ "DATE" ],
 						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "ARCH1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARCH_TEST",
+						"_type" : "TABLE"
 					},
 					
 					{

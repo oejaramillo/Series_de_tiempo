@@ -1,25 +1,6 @@
 
 {
-	"commands" : 
-	[
-		"{%equation}.archtest",
-		"{%equation}.ls(arma=cls, optmethod=newton) retgoog c ar(2) ma(2)",
-		"{%equation}.ls(arma=cls, optmethod=newton) retgoog c ar(2) ma(2)",
-		"{%equation}.ls(arma=cls, optmethod=newton) retgoog ar(2) ma(2)",
-		"close ARMA11",
-		"arma23.arch(1, 0, optmethod=opg, fixedlag=32, optmethod=opg) retgoog ar(2 to 3)  ma(3)",
-		"close Untitled",
-		"close ARMA22",
-		"arma11.ls(optmethod=opg) retgoog ar(1) ma(1)",
-		"arma22.ls(optmethod=opg) retgoog ar(1) ar(2) ma(1) ma(2)",
-		"close ARMA11",
-		"arma23.ls(optmethod=opg) retgoog ar(2 to 3)  ma(3)",
-		"arma23.correl",
-		"arma23.correlsq",
-		"arma23.archtest",
-		"arma23.results",
-		"{%equation}.arch(1, 0) retgoog ar(2) ar(3) ma(3)"
-	],
+	"commands" : [ "arch1.correlsq", "{%table}.rename resid2_correlograma" ],
 	"description" : "",
 	"label" : "auto",
 	"workbook_meta" : 
@@ -30,9 +11,9 @@
 			
 			{
 				"_frequency" : "D5",
-				"_last_update" : [ 738698.6186805556, "06/28/2023 14:50" ],
+				"_last_update" : [ 738698.6804166667, "06/28/2023 16:19" ],
 				"_name" : "Untitled",
-				"_obj_count" : 20,
+				"_obj_count" : 23,
 				"_objects" : 
 				[
 					
@@ -40,6 +21,16 @@
 						"_data_type" : [ "date" ],
 						"_name" : [ "DATE" ],
 						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "ARCH1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARCH_TEST",
+						"_type" : "TABLE"
 					},
 					
 					{
@@ -120,6 +111,11 @@
 					{
 						"_name" : "RESID",
 						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID2_CORRELOGRAMA",
+						"_type" : "TABLE"
 					},
 					
 					{

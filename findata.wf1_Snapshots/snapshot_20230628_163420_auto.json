@@ -1,25 +1,6 @@
 
 {
-	"commands" : 
-	[
-		"arma22.correl",
-		"{%equation}.ls(optmethod=opg) retgoog ar(3) ma(3)",
-		"{%equation}.ls(arma=cls, optmethod=newton) retgoog ar(3) ma(3)",
-		"{%equation}.ls(arma=cls, optmethod=newton) retgoog ar(2) ma(3)",
-		"{%equation}.ls(arma=cls, optmethod=newton) retgoog ar(2) ma(3)",
-		"{%equation}.ls(arma=cls, optmethod=newton) retgoog ar(2) ma(4)",
-		"{%equation}.ls(arma=cls, optmethod=newton) retgoog ar(2) ma(3)",
-		"{%equation}.ls(arma=cls, optmethod=newton) retgoog ar(1 to 2) ma(3)",
-		"{%equation}.ls(arma=cls, optmethod=newton) retgoog ar(2) ma(2)",
-		"{%equation}.correl",
-		"{%equation}.ls(arma=cls, optmethod=newton) retgoog ar(2) ma(2 to 3)",
-		"{%equation}.ls(arma=cls, optmethod=newton) retgoog ar(2) ma(2 to 3)",
-		"{%equation}.correl",
-		"{%equation}.results",
-		"{%equation}.ls(arma=cls, optmethod=newton) retgoog ar(2) ma(3)",
-		"{%equation}.ls(arma=cls, optmethod=newton) retgoog ar(2) ma(2)",
-		"{%equation}.correl"
-	],
+	"commands" : null,
 	"description" : "",
 	"label" : "auto",
 	"workbook_meta" : 
@@ -30,9 +11,9 @@
 			
 			{
 				"_frequency" : "D5",
-				"_last_update" : [ 738698.6141666666, "06/28/2023 14:44" ],
+				"_last_update" : [ 738698.6822453704, "06/28/2023 16:22" ],
 				"_name" : "Untitled",
-				"_obj_count" : 20,
+				"_obj_count" : 24,
 				"_objects" : 
 				[
 					
@@ -40,6 +21,16 @@
 						"_data_type" : [ "date" ],
 						"_name" : [ "DATE" ],
 						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "ARCH1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARCH_TEST",
+						"_type" : "TABLE"
 					},
 					
 					{
@@ -55,6 +46,11 @@
 					{
 						"_name" : "ARMA23",
 						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA23_CORRELOGRAMA",
+						"_type" : "TABLE"
 					},
 					
 					{
@@ -120,6 +116,11 @@
 					{
 						"_name" : "RESID",
 						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID2_CORRELOGRAMA",
+						"_type" : "TABLE"
 					},
 					
 					{

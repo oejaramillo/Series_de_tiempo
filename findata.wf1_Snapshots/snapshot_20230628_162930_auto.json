@@ -1,6 +1,6 @@
 
 {
-	"commands" : [ "{%equation}.correl", "{%equation}.hist", "{%equation}.rename arch1" ],
+	"commands" : null,
 	"description" : "",
 	"label" : "auto",
 	"workbook_meta" : 
@@ -11,9 +11,9 @@
 			
 			{
 				"_frequency" : "D5",
-				"_last_update" : [ 738698.6187731482, "06/28/2023 14:51" ],
+				"_last_update" : [ 738698.6822453704, "06/28/2023 16:22" ],
 				"_name" : "Untitled",
-				"_obj_count" : 21,
+				"_obj_count" : 24,
 				"_objects" : 
 				[
 					
@@ -29,6 +29,11 @@
 					},
 					
 					{
+						"_name" : "ARCH_TEST",
+						"_type" : "TABLE"
+					},
+					
+					{
 						"_name" : "ARMA11",
 						"_type" : "EQUATION"
 					},
@@ -41,6 +46,11 @@
 					{
 						"_name" : "ARMA23",
 						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA23_CORRELOGRAMA",
+						"_type" : "TABLE"
 					},
 					
 					{
@@ -106,6 +116,11 @@
 					{
 						"_name" : "RESID",
 						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID2_CORRELOGRAMA",
+						"_type" : "TABLE"
 					},
 					
 					{

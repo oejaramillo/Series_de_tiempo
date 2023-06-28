@@ -1,6 +1,11 @@
 
 {
-	"commands" : [ "{%equation}.results", "{%equation}.correlsq" ],
+	"commands" : 
+	[
+		"arma23.correl",
+		"{%table}.rename arma23_correlograma",
+		"arch1.results"
+	],
 	"description" : "",
 	"label" : "auto",
 	"workbook_meta" : 
@@ -11,9 +16,9 @@
 			
 			{
 				"_frequency" : "D5",
-				"_last_update" : [ 738698.6036342593, "06/28/2023 14:29" ],
+				"_last_update" : [ 738698.6822453704, "06/28/2023 16:22" ],
 				"_name" : "Untitled",
-				"_obj_count" : 20,
+				"_obj_count" : 24,
 				"_objects" : 
 				[
 					
@@ -21,6 +26,16 @@
 						"_data_type" : [ "date" ],
 						"_name" : [ "DATE" ],
 						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "ARCH1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARCH_TEST",
+						"_type" : "TABLE"
 					},
 					
 					{
@@ -36,6 +51,11 @@
 					{
 						"_name" : "ARMA23",
 						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA23_CORRELOGRAMA",
+						"_type" : "TABLE"
 					},
 					
 					{
@@ -101,6 +121,11 @@
 					{
 						"_name" : "RESID",
 						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID2_CORRELOGRAMA",
+						"_type" : "TABLE"
 					},
 					
 					{

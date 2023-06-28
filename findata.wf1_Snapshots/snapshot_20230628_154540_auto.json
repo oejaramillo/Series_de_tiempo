@@ -2,10 +2,13 @@
 {
 	"commands" : 
 	[
-		"{%equation}.ls retgoog c",
-		"{%equation}.archtest",
-		"{%equation}.correlsq",
-		"close Untitled"
+		"copy ARMA23 ARCH_TEST",
+		"arch_test.archtest",
+		"close ARMA23",
+		"arch_test.archtest",
+		"{%table}.table",
+		"{%table}.rename arch_test",
+		"delete arch_test "
 	],
 	"description" : "",
 	"label" : "auto",
@@ -17,9 +20,9 @@
 			
 			{
 				"_frequency" : "D5",
-				"_last_update" : [ 738698.6071412037, "06/28/2023 14:34" ],
+				"_last_update" : [ 738698.6565856482, "06/28/2023 15:45" ],
 				"_name" : "Untitled",
-				"_obj_count" : 20,
+				"_obj_count" : 21,
 				"_objects" : 
 				[
 					
@@ -27,6 +30,11 @@
 						"_data_type" : [ "date" ],
 						"_name" : [ "DATE" ],
 						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "ARCH1",
+						"_type" : "EQUATION"
 					},
 					
 					{

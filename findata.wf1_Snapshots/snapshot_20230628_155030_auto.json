@@ -1,6 +1,14 @@
 
 {
-	"commands" : [ "arch1.correlsq" ],
+	"commands" : 
+	[
+		"arma23.archtest",
+		"{%table}.rename arch_test",
+		"close ARCH_TEST",
+		"close ARCH1",
+		"arch1.results",
+		"arma23.results"
+	],
 	"description" : "",
 	"label" : "auto",
 	"workbook_meta" : 
@@ -11,9 +19,9 @@
 			
 			{
 				"_frequency" : "D5",
-				"_last_update" : [ 738698.6254398148, "06/28/2023 15:00" ],
+				"_last_update" : [ 738698.6576273148, "06/28/2023 15:46" ],
 				"_name" : "Untitled",
-				"_obj_count" : 21,
+				"_obj_count" : 22,
 				"_objects" : 
 				[
 					
@@ -26,6 +34,11 @@
 					{
 						"_name" : "ARCH1",
 						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARCH_TEST",
+						"_type" : "TABLE"
 					},
 					
 					{

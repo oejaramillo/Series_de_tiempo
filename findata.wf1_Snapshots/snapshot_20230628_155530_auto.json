@@ -11,9 +11,9 @@
 			
 			{
 				"_frequency" : "D5",
-				"_last_update" : [ 738698.5881481482, "06/28/2023 14:06" ],
+				"_last_update" : [ 738698.6632986111, "06/28/2023 15:55" ],
 				"_name" : "Untitled",
-				"_obj_count" : 20,
+				"_obj_count" : 22,
 				"_objects" : 
 				[
 					
@@ -21,6 +21,16 @@
 						"_data_type" : [ "date" ],
 						"_name" : [ "DATE" ],
 						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "ARCH1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARCH_TEST",
+						"_type" : "TABLE"
 					},
 					
 					{

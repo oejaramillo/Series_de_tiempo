@@ -1,16 +1,6 @@
 
 {
-	"commands" : 
-	[
-		"arma23.arch(1, 0, optmethod=opg, optmethod=opg) retgoog ar(2 to 3)  ma(3)",
-		"arma11.ls(arma=cls, optmethod=opg) retgoog ar(1) ma(1)",
-		"arma11.ls(arma=cls, optmethod=newton) retgoog ar(1) ma(1)",
-		"arma22.ls(arma=cls, optmethod=newton) retgoog ar(1) ar(2) ma(1) ma(2)",
-		"arma33.ls(arma=cls, optmethod=newton) retgoog ar(1) ar(2) ar(3) ma(1) ma(2) ma(3)",
-		"arma44.ls(arma=cls, optmethod=newton) retgoog ar(1) ar(2) ar(3) ar(4)  ma(1) ma(2) ma(3) ma(4)",
-		"arma44.correl",
-		"arma33.correl"
-	],
+	"commands" : null,
 	"description" : "",
 	"label" : "auto",
 	"workbook_meta" : 
@@ -21,9 +11,9 @@
 			
 			{
 				"_frequency" : "D5",
-				"_last_update" : [ 738698.6113425926, "06/28/2023 14:40" ],
+				"_last_update" : [ 738698.6632986111, "06/28/2023 15:55" ],
 				"_name" : "Untitled",
-				"_obj_count" : 20,
+				"_obj_count" : 22,
 				"_objects" : 
 				[
 					
@@ -31,6 +21,16 @@
 						"_data_type" : [ "date" ],
 						"_name" : [ "DATE" ],
 						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "ARCH1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARCH_TEST",
+						"_type" : "TABLE"
 					},
 					
 					{
