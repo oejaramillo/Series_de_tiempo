@@ -1,0 +1,140 @@
+
+{
+	"commands" : 
+	[
+		"arma23.arch(1, 0, optmethod=opg, optmethod=opg) retgoog ar(2 to 3)  ma(3)",
+		"arma11.ls(arma=cls, optmethod=opg) retgoog ar(1) ma(1)",
+		"arma11.ls(arma=cls, optmethod=newton) retgoog ar(1) ma(1)",
+		"arma22.ls(arma=cls, optmethod=newton) retgoog ar(1) ar(2) ma(1) ma(2)",
+		"arma33.ls(arma=cls, optmethod=newton) retgoog ar(1) ar(2) ar(3) ma(1) ma(2) ma(3)",
+		"arma44.ls(arma=cls, optmethod=newton) retgoog ar(1) ar(2) ar(3) ar(4)  ma(1) ma(2) ma(3) ma(4)",
+		"arma44.correl",
+		"arma33.correl"
+	],
+	"description" : "",
+	"label" : "auto",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\oscar local\\di tella\\series_de_tiempo\\findata.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "D5",
+				"_last_update" : [ 738698.6113425926, "06/28/2023 14:40" ],
+				"_name" : "Untitled",
+				"_obj_count" : 20,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : [ "date" ],
+						"_name" : [ "DATE" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "ARMA11",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA22",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA23",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA33",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA44",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA55",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA66",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "DATE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "KO",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LOGGOOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LOGKO",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LOGMCD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "MCD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RETGOOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RETKO",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RETMCD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 502
+			}
+		]
+	}
+}

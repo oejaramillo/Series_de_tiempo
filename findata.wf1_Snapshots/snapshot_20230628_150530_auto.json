@@ -1,0 +1,135 @@
+
+{
+	"commands" : [ "arma23.archtest" ],
+	"description" : "",
+	"label" : "auto",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\oscar local\\di tella\\series_de_tiempo\\findata.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "D5",
+				"_last_update" : [ 738698.6274768518, "06/28/2023 15:03" ],
+				"_name" : "Untitled",
+				"_obj_count" : 21,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : [ "date" ],
+						"_name" : [ "DATE" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "ARCH1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA11",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA22",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA23",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA33",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA44",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA55",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARMA66",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "DATE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "KO",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LOGGOOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LOGKO",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LOGMCD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "MCD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RETGOOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RETKO",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RETMCD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 502
+			}
+		]
+	}
+}
