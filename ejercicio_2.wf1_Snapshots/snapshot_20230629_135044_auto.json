@@ -1,0 +1,105 @@
+
+{
+	"commands" : [ "var2_garch1.garch(smpl=\"1/05/2018 12/30/2019\", mat)" ],
+	"description" : "",
+	"label" : "auto",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\oscar local\\di tella\\series_de_tiempo\\ejercicio_2.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "D5",
+				"_last_update" : [ 738699.5411226852, "06/29/2023 12:59" ],
+				"_name" : "Untitled",
+				"_obj_count" : 15,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : [ "date" ],
+						"_name" : [ "DATE" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "DATE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "KO",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LOGGOOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LOGKO",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LOGMCD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "MCD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RETGOOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RETKO",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RETMCD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "VAR2",
+						"_type" : "VAR"
+					},
+					
+					{
+						"_name" : "VAR2_GARCH1",
+						"_type" : "SYSTEM"
+					}
+				],
+				"_obs_count" : 502
+			}
+		]
+	}
+}

@@ -1,0 +1,115 @@
+
+{
+	"commands" : null,
+	"description" : "",
+	"label" : "auto",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\oscar local\\di tella\\series_de_tiempo\\findata.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "D5",
+				"_last_update" : [ 738698.9020254629, "06/28/2023 21:38" ],
+				"_name" : "Untitled",
+				"_obj_count" : 17,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : [ "date" ],
+						"_name" : [ "DATE" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "DATE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "KO",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LOGGOOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LOGKO",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LOGMCD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "MCD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RETGOOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RETKO",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RETMCD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "VAR2",
+						"_type" : "VAR"
+					},
+					
+					{
+						"_name" : "VAR4",
+						"_type" : "VAR"
+					},
+					
+					{
+						"_name" : "VAR6",
+						"_type" : "VAR"
+					},
+					
+					{
+						"_name" : "VAR8",
+						"_type" : "VAR"
+					}
+				],
+				"_obs_count" : 502
+			}
+		]
+	}
+}
