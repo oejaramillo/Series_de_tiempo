@@ -1,0 +1,67 @@
+
+{
+	"commands" : null,
+	"description" : "",
+	"label" : "auto",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\oscar local\\di tella\\series_de_tiempo\\argentina_actual.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "Q",
+				"_last_update" : [ 738699.6301967592, "06/29/2023 15:07" ],
+				"_name" : "Untitled",
+				"_obj_count" : 7,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 736694.0, "01/01/2018" ],
+						"_obs_min" : [ 726467.0, "01/01/1990" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "PBI_G",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "PBI_REAL",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SPREAD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "TASAINTE_30",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "TASAINTE_60",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 113
+			}
+		]
+	}
+}
