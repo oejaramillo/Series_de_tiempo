@@ -1,0 +1,111 @@
+
+{
+	"commands" : 
+	[
+		"{%equation}.ls ersf dvrp3 deltasent12",
+		"{%equation}.ls ersf c dvrp3 deltasent12"
+	],
+	"description" : "",
+	"label" : "auto",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\edu\\maestria\\torcuatto di tella\\cuarto trimestre\\series de tiempo\\segunda cursada\\series_de_tiempo\\uncerindex.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "M",
+				"_last_update" : [ 738701.7484722222, "07/01/2023 17:57" ],
+				"_name" : "Fulldatav1",
+				"_obj_count" : 15,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 737759.0, "12/01/2020" ],
+						"_obs_min" : [ 726102.0, "01/01/1989" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "DELTASENT12",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DELTASENT12_ADF",
+						"_type" : "TABLE"
+					},
+					
+					{
+						"_name" : "DVRP3",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DVRP3_ADF",
+						"_type" : "TABLE"
+					},
+					
+					{
+						"_name" : "ERSF",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "ERSF_ADF",
+						"_type" : "TABLE"
+					},
+					
+					{
+						"_name" : "EXRET",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "OLS_SIND",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "PD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "PDGROWTH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "PDGROWTH12",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "VRP3",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "VRP3_ADF",
+						"_type" : "TABLE"
+					}
+				],
+				"_obs_count" : 384
+			}
+		]
+	}
+}
