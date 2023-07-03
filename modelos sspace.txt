@@ -1,0 +1,33 @@
+@signal ex3mhold12 = sv1
+@signal ex3mhold120 = sv2
+@signal ex3mhold24 = sv3
+@signal ex3mhold60 = sv4
+
+@state sv1 = c(1)*sv1(-1) + [ename = e1]
+@state sv2 = c(2)*sv2(-1) + [ename = e2]
+@state sv3 = c(3)*sv3(-1) + [ename = e3]
+@state sv4 = c(4)*sv4(-1) + [ename = e4]
+
+@evar var(e1) = exp(c(5))
+@evar var(e2) = exp(c(6))
+@evar var(e3) = exp(c(7))
+@evar var(e4) = exp(c(8))
+
+@evar cov(e1, e2) = c(9)
+@evar cov(e1, e3) = c(10)
+@evar cov(e1, e4) = c(11)
+@evar cov(e2, e3) = c(12)
+@evar cov(e2, e4) = c(13)
+@evar cov(e3, e4) = c(14)
+
+@param c(5) 2.568047608967572
+@param c(6) 181.5343789695015
+@param c(7) 10.03532037552941
+@param c(8) 55.89473756837336
+
+@param c(9) 13.19858695797213
+@param c(10) 4.206458047782312
+@param c(11) 8.825752491578614
+@param c(12) 29.66963848942425
+@param c(13) 84.12726449594555
+@param c(14) 19.83004252320737
