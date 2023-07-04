@@ -1,0 +1,97 @@
+
+{
+	"commands" : [ "linearbayes1983_2019.display", "linearbayes1962_2019.display" ],
+	"description" : "",
+	"label" : "auto",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\edu\\maestria\\torcuatto di tella\\cuarto trimestre\\series de tiempo\\segunda cursada\\series_de_tiempo\\ejercicio_6.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "M",
+				"_last_update" : [ 738664.8076851852, "05/25/2023 19:23" ],
+				"_name" : "Untitled",
+				"_obj_count" : 13,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 737363.0, "11/01/2019" ],
+						"_obs_min" : [ 716240.0, "01/01/1962" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "GRAPHS",
+						"_type" : "GROUP"
+					},
+					
+					{
+						"_name" : "I",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LINEARBAYES1962_1979",
+						"_type" : "SPOOL"
+					},
+					
+					{
+						"_name" : "LINEARBAYES1962_2019",
+						"_type" : "SPOOL"
+					},
+					
+					{
+						"_name" : "LINEARBAYES1979_1982",
+						"_type" : "SPOOL"
+					},
+					
+					{
+						"_name" : "LINEARBAYES1983_2019",
+						"_type" : "SPOOL"
+					},
+					
+					{
+						"_name" : "LNMP",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LNY",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "M",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "P",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "Y",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 695
+			}
+		]
+	}
+}
